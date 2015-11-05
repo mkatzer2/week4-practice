@@ -1,0 +1,31 @@
+* { box-sizing: border-box }
+body { font-family: Arial, serif; 
+      text-align: center;}
+a { color: #FFFFFF;
+    text-decoration: none; }
+h1 { text-align: center;
+      color: #8369B1;
+      padding: 3%;}
+header nav li  { float: left;
+                background-color: #8369B1;
+                border-left: .4rem solid black;
+                padding: 1% 5%;
+                width: 14.28%; }
+header nav li:first-child { border: none; }  
+aside { float: left;
+        width: 20%; 
+        background-color: #C1B1D5; }
+figure { float: right;
+        width: 80%;
+        padding: 7%; }
+footer { clear: both;
+        padding: 4%; } 
+footer li { display: inline;
+            padding: 0 2% }
+
+
+
+
+
+                
+
