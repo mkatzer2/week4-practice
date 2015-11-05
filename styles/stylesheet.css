@@ -12,7 +12,7 @@ header nav li  { float: left;
                 border-left: .4rem solid black;
                 padding: 1% 5%;
                 width: 14.28%; }
-header nav li:first-child { border: none; }  
+header nav li:first-child { border: none; }
 aside { float: left;
         width: 20%; 
         padding: 5rem 0 25rem 0;
@@ -25,11 +25,17 @@ aside li { padding: 6% 0; }
         background-color: #E1E4E9;
         height: 650px; }
 #homepage figure figcaption { margin: 3%; }
+
+/* footer stays the same */
+
 footer { clear: both;
         padding: 4%; } 
 footer li { display: inline;
             padding: 0 2%; }
 footer img { width: 4%; }
+
+
+/*food-places styles*/
 
 #food-places header nav li { background-color: #FF8605; }
 #food-places h1 { color: black; }
@@ -47,9 +53,28 @@ section.advertisement p { padding: 1%; }
                       float: left; }
 .image-list { padding: 0 0 2% 0;
               font-size: 1.5rem; }
-#food-places h4 { color: white; 
+aside h4 { color: white; 
                   font-size: 1.5rem;
                   text-decoration: underline;
                   padding: 0 0 5% 0;}
 #food-places aside a:hover {color: #FF8605;
                             font-size: 1.6rem; }
+
+
+/* Ingredients page styling */
+
+#ingredients-page header nav li { background-color: deepskyblue;
+                                  border-color: navy; }
+#ingredients-page h1 { color: navy; }
+#ingredients-page aside { background-color: skyblue; }
+#ingredients-page figure { float: left;
+                          width: 30%;
+                          height: 250px;
+                          margin: 15% 0 15% 12%;} 
+#ingredients-page figure img { width: 100%;
+                              height: 100%;
+                              border: 5px dashed navy; } 
+#ingredients-page p { float: right;
+                    width: 35%;
+                    margin: 18% 0 15% 0;
+                    padding: 2% 6% 2% 2%; }
