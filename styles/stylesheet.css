@@ -1,8 +1,9 @@
 * { box-sizing: border-box }
 body { font-family: Arial, serif; 
       text-align: center;}
-a { color: #FFFFFF;
-    text-decoration: none; }
+a { color: white;
+    text-decoration: none;
+    font-size: 1.2rem;  }
 h1 { text-align: center;
       color: #8369B1;
       padding: 3%;}
@@ -14,18 +15,41 @@ header nav li  { float: left;
 header nav li:first-child { border: none; }  
 aside { float: left;
         width: 20%; 
+        padding: 5rem 0 25rem 0;
+        height: 650px;
         background-color: #C1B1D5; }
-figure { float: right;
+aside li { padding: 6% 0; }
+#homepage figure { float: right;
         width: 80%;
-        padding: 7%; }
+        padding: 5rem;
+        background-color: #E1E4E9;
+        height: 650px; }
+#homepage figure figcaption { margin: 3%; }
 footer { clear: both;
         padding: 4%; } 
 footer li { display: inline;
-            padding: 0 2% }
+            padding: 0 2%; }
+footer img { width: 4%; }
 
-
-
-
-
-                
-
+#food-places header nav li { background-color: #FF8605; }
+#food-places h1 { color: black; }
+#food-places h1:hover {color: #FF8605; }
+#food-places aside { background-color: #4F4B47; }
+#food-places h3 { font-size: 2rem;
+                  padding: 10% 0 1% 0; } 
+.advertisement { font-size: 1.2rem;
+                padding: 2%; } 
+section.advertisement p { padding: 1%; } 
+#food-places article img { width: 75%;
+                    height: 75%}
+#food-places figure { width: 250px;
+                      height: 200px;
+                      float: left; }
+.image-list { padding: 0 0 2% 0;
+              font-size: 1.5rem; }
+#food-places h4 { color: white; 
+                  font-size: 1.5rem;
+                  text-decoration: underline;
+                  padding: 0 0 5% 0;}
+#food-places aside a:hover {color: #FF8605;
+                            font-size: 1.6rem; }
