@@ -63,10 +63,10 @@ aside h4 { color: white;
 
 /* Ingredients page styling */
 
-#ingredients-page header nav li { background-color: deepskyblue;
+#ingredients-page header nav li { background-color: #0079a2;
                                   border-color: navy; }
 #ingredients-page h1 { color: navy; }
-#ingredients-page aside { background-color: skyblue; }
+#ingredients-page aside { background-color: navy; }
 #ingredients-page figure { float: left;
                           width: 30%;
                           height: 250px;
